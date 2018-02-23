@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Guru99 eCommerce Application Test Automation Test Suite]">
+  <listeners>
+    <listener class-name="com.qa.ExtentReportListner.ExtentReporterNG"/>
+  </listeners>
+  <test name="Guru99 eCommerce Test Cases(failed)">
+    <classes>
+      <class name="com.Guru99.qa.tests.MobilePageTest">
+        <methods>
+          <include name="verifyIphoneAddToCartTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.Guru99.qa.tests.MobilePageTest -->
+    </classes>
+  </test> <!-- Guru99 eCommerce Test Cases(failed) -->
+</suite> <!-- Failed suite [Guru99 eCommerce Application Test Automation Test Suite] -->
